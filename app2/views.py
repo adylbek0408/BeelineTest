@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from .serializers import *
-from .models import *
+from serializers import *
+from models import *
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter
 
